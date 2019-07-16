@@ -1,0 +1,12 @@
+{
+  "name": "graphql_casestudy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bartcis/graphql_casestudy.git",
+  "author": "bartcis <cis.bart@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "apollo-server": "^2.7.0",
+    "graphql": "^14.4.2"
+  }
+}
