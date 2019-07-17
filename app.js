@@ -1,7 +1,7 @@
 const { ApolloServer } = require('apollo-server');
 
-const api = require('./data/api');
-const typeDefs = require('./data/schema');
+const api = require('./server/api');
+const typeDefs = require('./server/schema');
 
 const resolvers = {
   Query: {
