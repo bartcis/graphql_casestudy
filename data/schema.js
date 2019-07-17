@@ -8,8 +8,9 @@ const typeDefs = gql`
 
   type Country {
     name: String
-    popuation: String
+    population: String
     inNato: Boolean
+    id: String
   }
 
   type Query {

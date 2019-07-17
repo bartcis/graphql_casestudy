@@ -3,9 +3,6 @@ const { ApolloServer } = require('apollo-server');
 const api = require('./data/api');
 const typeDefs = require('./data/schema');
 
-
-console.log(api, typeDefs);
-
 const resolvers = {
   Query: {
     books: () => api.books,
