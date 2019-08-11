@@ -1,22 +1,4 @@
 const api = {
-  books: [
-    {
-      title: 'Encyklopedia PWN - A-D',
-      author: 'Instytut Przyszłości',
-    },
-    {
-      title: 'Encyklopedia PWN - E-G',
-      author: 'Instytut Przyszłości',
-    },
-    {
-      title: 'Encyklopedia PWN - H-P',
-      author: 'Instytut Przyszłości',
-    },
-    {
-      title: 'Encyklopedia PWN - R-Z',
-      author: 'Instytut Przyszłości',
-    },
-  ],
   countries: [
     {
       name: 'Polska',
