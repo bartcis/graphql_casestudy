@@ -30,6 +30,7 @@ export default class App extends Component {
                   <span><b>Country:</b></span>
                   <span><b>Population:</b></span>
                   <span><b>In NATO?</b></span>
+                  
                 </p>
                 {countries.map(country => 
                   <p className='container__item' key={country.id}>
