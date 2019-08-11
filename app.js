@@ -6,7 +6,14 @@ const typeDefs = require('./server/schema');
 const resolvers = {
   Query: {
     books: () => api.books,
-    countries: () => api.countries
+    countries: () => api.countries,
+    country: (obj, args) => {
+      for (const record of api.countries) {
+        if (record.id === args.id) {
+          return record;
+        }
+      }
+    },
   },
 };
 
