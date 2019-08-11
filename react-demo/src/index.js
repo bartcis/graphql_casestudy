@@ -16,6 +16,7 @@ import { GraphQLClient, ClientContext } from 'graphql-hooks';
 import memCache from 'graphql-hooks-memcache';
 // End of imports for GraphQL Hooks Queries
 
+// Context for React Apollo
 const httpLinkReactApollo = createHttpLink({
   uri: 'http://localhost:4000'
 });
@@ -24,6 +25,7 @@ const clientReactApollo = new ApolloClient({
   cache: new InMemoryCache()
 });
 
+// Context for GraphQL Hooks
 const clientGraphQLHooks = new GraphQLClient({
   url: 'http://localhost:4000',
   cache: memCache(),

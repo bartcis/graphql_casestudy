@@ -19,8 +19,8 @@ const HookQuery = ({countryId}) => {
     variables: params,
   });
 
-  if (loading) return null;
-  if (error) return `Error! ${error}`;
+  if (loading) return <div>Loading...</div>
+  if (error) return <div>ERRRORRR</div>
 
   return (
     <>
